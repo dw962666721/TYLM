@@ -38,8 +38,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = RGBA(229, 230, 232, 1);
+    // 创建控件
     [self addTopView];
-    // Do any additional setup after loading the view.
+    
+    
 }
 -(void)addTopView
 {

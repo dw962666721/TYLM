@@ -28,11 +28,11 @@
     // 4.设置导航栏主题
     [self setNavigationTheme];
     
-//    NSNotificationCenter.defaultCenter().[addObserver(self, selector: "dealAps", name: "PushNotification", object: nil)
+    //    NSNotificationCenter.defaultCenter().[addObserver(self, selector: "dealAps", name: "PushNotification", object: nil)
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealAps) name:@"PushNotification" object:nil];
     // 5.处理通知
     [self dealAps];
-
+    
 }
 -(void)dealAps
 {
@@ -64,7 +64,7 @@
     UIViewController *root = navigationController.viewControllers[0];
     if(viewController!=root)
     {
-         // 更改导航控制器view的frame
+        // 更改导航控制器view的frame
         navigationController.view.frame = self.view.bounds;
         // 让tabbar从MainViewController上移除
         [self.tabbar removeFromSuperview];
@@ -153,7 +153,7 @@
     // 1.导航栏
     // 1.1.操作navBar相当操作整个应用中的所有导航栏
     UINavigationBar *navBar=[UINavigationBar appearance];
-     // 1.2.设置导航栏背景
+    // 1.2.设置导航栏背景
     [navBar setBackgroundImage:[UIImage imageNamed:@"导航栏"] forBarMetrics:UIBarMetricsDefault];
     // 1.3.设置状态栏背景
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;

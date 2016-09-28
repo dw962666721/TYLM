@@ -31,7 +31,7 @@
 }
 -(void)reloadData
 {
-//    self.backgroundColor = [UIColor colorWithRed:35 green:40 blue:50 alpha:1];
+    //    self.backgroundColor = [UIColor colorWithRed:35 green:40 blue:50 alpha:1];
     CGFloat width = self.frame.size.width/count;
     CGFloat height = self.frame.size.height;
     for(NSInteger i =0;i<count;i++)
@@ -63,7 +63,7 @@
         UIView *lineView = [[UIView alloc] init];
         lineView.frame = CGRectMake(j*width-0.5, 12, 0.5, 25);
         lineView.backgroundColor = [UIColor lightGrayColor];
-//        [self addSubview:lineView];
+        //        [self addSubview:lineView];
     }
     self.needsReloadData=NO;
     self.backgroundColor = RGBA(35, 40, 50, 1);
@@ -73,7 +73,7 @@
 {
     // 1.让当前的item取消选中
     self.currentSelecteItem.selected=NO;
-     // 2.让新的item选中
+    // 2.让新的item选中
     tabbarItem.selected=YES;
     // 3.让新的item变为当前选中
     self.currentSelecteItem = tabbarItem;

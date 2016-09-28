@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F5C605FAB124B1ACB67E63A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 617BD82A9085E3EDC4869D92 /* libPods.a */; };
 		CE0292671D533D38008D230E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0292661D533D38008D230E /* main.m */; };
+		CE0292721D533D38008D230E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0292711D533D38008D230E /* Images.xcassets */; };
 		CE0292811D533D38008D230E /* TYLMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0292801D533D38008D230E /* TYLMTests.m */; };
 		CE02928F1D533E74008D230E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02928C1D533E74008D230E /* AppDelegate.m */; };
 		CE0292901D533E74008D230E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02928E1D533E74008D230E /* MainViewController.m */; };
@@ -16,10 +17,10 @@
 		CE0292951D533EB0008D230E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0292931D533EB0008D230E /* Main.storyboard */; };
 		CE02929A1D533F48008D230E /* JSCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0292991D533F48008D230E /* JSCustomTabbar.m */; };
 		CE02929F1D5341AC008D230E /* JSCustomTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02929E1D5341AC008D230E /* JSCustomTabbarItem.m */; };
-		DB8AD9A91D9B76B4000041CA /* MySelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD9A81D9B76B4000041CA /* MySelfViewController.m */; };
-		DB8AD9AD1D9BF871000041CA /* AFNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD9AC1D9BF871000041CA /* AFNetworkTool.m */; };
-		DB8AD9AF1D9BF917000041CA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8AD9AE1D9BF917000041CA /* Social.framework */; };
-		DBC00D0A1D995B9700F23D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC00D091D995B9700F23D37 /* Images.xcassets */; };
+		DB8BDA271D9C2C8900A84DAE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BDA091D9C2C8900A84DAE /* LoginViewController.m */; };
+		DB8BDA281D9C2C8900A84DAE /* MySelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BDA0B1D9C2C8900A84DAE /* MySelfViewController.m */; };
+		DB8BDA321D9C2C8900A84DAE /* AFNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BDA241D9C2C8900A84DAE /* AFNetworkTool.m */; };
+		DB8BDA331D9C2C8900A84DAE /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BDA261D9C2C8900A84DAE /* UserInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		CE0292611D533D38008D230E /* TYLM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYLM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0292651D533D38008D230E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE0292661D533D38008D230E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE0292711D533D38008D230E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE02927A1D533D38008D230E /* TYLMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYLMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02927F1D533D38008D230E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE0292801D533D38008D230E /* TYLMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLMTests.m; sourceTree = "<group>"; };
@@ -52,13 +54,15 @@
 		CE0292991D533F48008D230E /* JSCustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCustomTabbar.m; sourceTree = "<group>"; };
 		CE02929D1D5341AC008D230E /* JSCustomTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCustomTabbarItem.h; sourceTree = "<group>"; };
 		CE02929E1D5341AC008D230E /* JSCustomTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCustomTabbarItem.m; sourceTree = "<group>"; };
-		DB8AD9A71D9B76B4000041CA /* MySelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySelfViewController.h; sourceTree = "<group>"; };
-		DB8AD9A81D9B76B4000041CA /* MySelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySelfViewController.m; sourceTree = "<group>"; };
-		DB8AD9AB1D9BF871000041CA /* AFNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkTool.h; sourceTree = "<group>"; };
-		DB8AD9AC1D9BF871000041CA /* AFNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkTool.m; sourceTree = "<group>"; };
-		DB8AD9AE1D9BF917000041CA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		DBC00D091D995B9700F23D37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TYLM/Images.xcassets; sourceTree = "<group>"; };
-		DBC00D0C1D995E8600F23D37 /* Property.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.pch; sourceTree = "<group>"; };
+		DB8BDA081D9C2C8900A84DAE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DB8BDA091D9C2C8900A84DAE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DB8BDA0A1D9C2C8900A84DAE /* MySelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySelfViewController.h; sourceTree = "<group>"; };
+		DB8BDA0B1D9C2C8900A84DAE /* MySelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySelfViewController.m; sourceTree = "<group>"; };
+		DB8BDA0C1D9C2C8900A84DAE /* Property.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.pch; sourceTree = "<group>"; };
+		DB8BDA231D9C2C8900A84DAE /* AFNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkTool.h; sourceTree = "<group>"; };
+		DB8BDA241D9C2C8900A84DAE /* AFNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkTool.m; sourceTree = "<group>"; };
+		DB8BDA251D9C2C8900A84DAE /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		DB8BDA261D9C2C8900A84DAE /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8AD9AF1D9BF917000041CA /* Social.framework in Frameworks */,
 				7F5C605FAB124B1ACB67E63A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,7 +87,6 @@
 		04419F532766AAAFCAE24DCB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DB8AD9AE1D9BF917000041CA /* Social.framework */,
 				617BD82A9085E3EDC4869D92 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -103,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				CE0292631D533D38008D230E /* TYLM */,
-				DBC00D091D995B9700F23D37 /* Images.xcassets */,
 				CE02927D1D533D38008D230E /* TYLMTests */,
 				CE0292621D533D38008D230E /* Products */,
 				107A7A9DFB0C7683B13CD84F /* Pods */,
@@ -123,10 +124,12 @@
 		CE0292631D533D38008D230E /* TYLM */ = {
 			isa = PBXGroup;
 			children = (
-				DB8AD9AA1D9BF870000041CA /* Tool */,
-				DB8AD9A61D9B7620000041CA /* MySelf */,
-				DBC00D0C1D995E8600F23D37 /* Property.pch */,
+				DB8BDA071D9C2C8900A84DAE /* MySelf */,
+				DB8BDA0C1D9C2C8900A84DAE /* Property.pch */,
+				DB8BDA0D1D9C2C8900A84DAE /* Resource */,
+				DB8BDA221D9C2C8900A84DAE /* Tool */,
 				CE02928A1D533E3B008D230E /* Main */,
+				CE0292711D533D38008D230E /* Images.xcassets */,
 				CE0292641D533D38008D230E /* Supporting Files */,
 			);
 			path = TYLM;
@@ -175,20 +178,31 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		DB8AD9A61D9B7620000041CA /* MySelf */ = {
+		DB8BDA071D9C2C8900A84DAE /* MySelf */ = {
 			isa = PBXGroup;
 			children = (
-				DB8AD9A71D9B76B4000041CA /* MySelfViewController.h */,
-				DB8AD9A81D9B76B4000041CA /* MySelfViewController.m */,
+				DB8BDA081D9C2C8900A84DAE /* LoginViewController.h */,
+				DB8BDA091D9C2C8900A84DAE /* LoginViewController.m */,
+				DB8BDA0A1D9C2C8900A84DAE /* MySelfViewController.h */,
+				DB8BDA0B1D9C2C8900A84DAE /* MySelfViewController.m */,
 			);
 			path = MySelf;
 			sourceTree = "<group>";
 		};
-		DB8AD9AA1D9BF870000041CA /* Tool */ = {
+		DB8BDA0D1D9C2C8900A84DAE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				DB8AD9AB1D9BF871000041CA /* AFNetworkTool.h */,
-				DB8AD9AC1D9BF871000041CA /* AFNetworkTool.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DB8BDA221D9C2C8900A84DAE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BDA231D9C2C8900A84DAE /* AFNetworkTool.h */,
+				DB8BDA241D9C2C8900A84DAE /* AFNetworkTool.m */,
+				DB8BDA251D9C2C8900A84DAE /* UserInfo.h */,
+				DB8BDA261D9C2C8900A84DAE /* UserInfo.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -275,9 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC00D0A1D995B9700F23D37 /* Images.xcassets in Resources */,
 				CE0292951D533EB0008D230E /* Main.storyboard in Resources */,
 				CE0292941D533EB0008D230E /* LaunchScreen.xib in Resources */,
+				CE0292721D533D38008D230E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,13 +342,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8AD9A91D9B76B4000041CA /* MySelfViewController.m in Sources */,
 				CE0292901D533E74008D230E /* MainViewController.m in Sources */,
-				DB8AD9AD1D9BF871000041CA /* AFNetworkTool.m in Sources */,
 				CE02928F1D533E74008D230E /* AppDelegate.m in Sources */,
+				DB8BDA281D9C2C8900A84DAE /* MySelfViewController.m in Sources */,
+				DB8BDA271D9C2C8900A84DAE /* LoginViewController.m in Sources */,
+				DB8BDA331D9C2C8900A84DAE /* UserInfo.m in Sources */,
 				CE02929A1D533F48008D230E /* JSCustomTabbar.m in Sources */,
 				CE0292671D533D38008D230E /* main.m in Sources */,
 				CE02929F1D5341AC008D230E /* JSCustomTabbarItem.m in Sources */,
+				DB8BDA321D9C2C8900A84DAE /* AFNetworkTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +462,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TYLM/Property.pch";
 				INFOPLIST_FILE = TYLM/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -459,7 +474,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TYLM/Property.pch";
 				INFOPLIST_FILE = TYLM/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

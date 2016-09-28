@@ -9,7 +9,7 @@
 #import "UserInfo.h"
 
 @implementation UserInfo
--(UserInfo)userInfo
+-(UserInfo*)userInfo
 {
     if (!self.userInfo) {
         self.userInfo = [[UserInfo alloc] init];
@@ -30,7 +30,7 @@
 -(void)setUserDict:(NSDictionary *)userDict
 {
     self.userInfo.userDict=userDict;
-    [[NSUserDefaults standardUserDefaults] addObserver:userDict forKeyPath:@"TYLM" options:nil context:nil];
+    [[NSUserDefaults standardUserDefaults] addObserver:userDict forKeyPath:@"TYLM" options:NSKeyValueObservingOptionOld context:nil];
 }
 // 获取用户数据
 -(NSDictionary*)getUserDict

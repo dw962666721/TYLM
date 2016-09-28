@@ -7,8 +7,8 @@
 //
 
 #ifndef Money_Come_Property_pch
-#import "AFNetworkTool.h"
-#import "UserInfo.h"
+//#import "AFNetworkTool.h"
+//#import "UserInfo.h"
 #define Money_Come_Property_pch
 #define ServerUrl @"http://112.65.187.118:8074/ep4.1_nm_app/"
 #define LoginURL @"androidLoginAction!androidLogin.action"
